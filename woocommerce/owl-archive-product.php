@@ -109,28 +109,28 @@ get_header('shop'); ?>
                         <h3 class="text-secondary-emphasis fs-base fw-normal mb-2">Navy blue low sofa for relaxation</h3>
                         <p class="h4 mb-4">$1,250.00</p>
                         <a class="btn btn-lg btn-dark rounded-pill" href="<?php echo esc_url(home_url('/shop/')); ?>">
-                            Shop now <i class="ci-chevron-right fs-lg ms-2 me-n2"></i>
+                            Comprar ahora <i class="ci-chevron-right fs-lg ms-2 me-n2"></i>
                         </a>
                     </div>
                     <div class="item bg-body-tertiary text-center">
                         <h3 class="text-secondary-emphasis fs-base fw-normal mb-2">Armchair with wooden legs 70x120 cm</h3>
                         <p class="h4 mb-4">$269.99</p>
                         <a class="btn btn-lg btn-dark rounded-pill" href="<?php echo esc_url(home_url('/shop/')); ?>">
-                            Shop now <i class="ci-chevron-right fs-lg ms-2 me-n2"></i>
+                            Comprar ahora <i class="ci-chevron-right fs-lg ms-2 me-n2"></i>
                         </a>
                     </div>
                     <div class="item bg-body-tertiary text-center">
                         <h3 class="text-secondary-emphasis fs-base fw-normal mb-2">Bed frame light gray 140x200 cm</h3>
                         <p class="h4 mb-4">$760.00</p>
                         <a class="btn btn-lg btn-dark rounded-pill" href="<?php echo esc_url(home_url('/shop/')); ?>">
-                            Shop now <i class="ci-chevron-right fs-lg ms-2 me-n2"></i>
+                            Comprar ahora <i class="ci-chevron-right fs-lg ms-2 me-n2"></i>
                         </a>
                     </div>
                     <div class="item bg-body-tertiary text-center">
                         <h3 class="text-secondary-emphasis fs-base fw-normal mb-2">Blue armchair with iron legs</h3>
                         <p class="h4 mb-4">$220.00</p>
                         <a class="btn btn-lg btn-dark rounded-pill" href="<?php echo esc_url(home_url('/shop/')); ?>">
-                            Shop now <i class="ci-chevron-right fs-lg ms-2 me-n2"></i>
+                            Comprar ahora <i class="ci-chevron-right fs-lg ms-2 me-n2"></i>
                         </a>
                     </div>
                 </div>
@@ -208,10 +208,10 @@ get_header('shop'); ?>
     <!-- Popular Products Section -->
     <section class="pb-5 mt-md-n2 mb-2 mb-sm-3 mb-md-4 mb-xl-5 container">
         <div class="d-flex align-items-center justify-content-between border-bottom pb-3 pb-md-4">
-            <h2 class="h3 mb-0">Popular products</h2>
+            <h2 class="h3 mb-0">Productos populares</h2>
             <div class="ms-3 nav">
                 <a class="animate-underline px-0 py-2 nav-link" href="<?php echo esc_url(wc_get_page_permalink('shop')); ?>">
-                    <span class="animate-target">View all</span>
+                    <span class="animate-target">Ver todo</span>
                     <i class="ci-chevron-right fs-base ms-1"></i>
                 </a>
             </div>
@@ -264,7 +264,7 @@ get_header('shop'); ?>
                                     <?php endif; ?>
                                 </a>
                                 <?php if ($product->is_on_sale()) : ?>
-                                    <span class="badge bg-danger position-absolute top-0 start-0 m-2">Sale</span>
+                                    <span class="badge bg-danger position-absolute top-0 start-0 m-2">Oferta</span>
                                 <?php endif; ?>
                             </div>
                             <div class="card-body d-flex flex-column">
@@ -279,7 +279,7 @@ get_header('shop'); ?>
                                     </p>
                                     <div class="d-flex gap-2">
                                         <a href="<?php echo esc_url(get_permalink()); ?>" class="btn btn-dark rounded-pill flex-fill">
-                                            View Details
+                                            Ver detalles
                                         </a>
                                         <?php if ($product->is_type('simple')) : ?>
                                             <button type="button" class="btn btn-dark rounded-pill btn-icon" onclick="addToCart(<?php echo $product->get_id(); ?>)">

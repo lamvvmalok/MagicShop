@@ -19,8 +19,8 @@
     <link rel="stylesheet" href="
 											<?php echo get_template_directory_uri(); ?>/_next/static/css/fb32ae888a35a686.css@dpl=dpl_6F2jjskHFwK7A4KpnWfLzEoFBiYu.css" data-precedence="next" /
     <meta name="next-size-adjust" content="" />
-    <title>Cartzilla | Furniture Store</title>
-    <meta name="description" content="Cartzilla - Multipurpose E-Commerce React / Next.js Bootstrap Template" />
+    <title>Power | Tienda de Muebles</title>
+    <meta name="description" content="Power - Tienda de muebles y decoración para el hogar" />
     <meta name="author" content="Createx Studio" />
     <link rel="manifest" href="../manifest.webmanifest" />
     <meta name="keywords" content="online shop,e-commerce,online store,market,multipurpose,product landing,cart,checkout,react,nextjs,bootstrap,ui kit,light and dark mode,gallery,slider,mobile,pwa" />

@@ -20,10 +20,10 @@ get_header('shop'); ?>
         <nav aria-label="breadcrumb" class="position-relative pt-3 mt-3 mt-md-4 mb-4">
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
-              <a href="/">Home</a>
+              <a href="/">Inicio</a>
             </li>
             <li class="breadcrumb-item">
-              <a href="/shop">Shop</a>
+              <a href="/shop">Tienda</a>
             </li>
             <li class="breadcrumb-item active" aria-current="page">Lighthouse Lantern</li>
           </ol>
@@ -132,7 +132,7 @@ get_header('shop'); ?>
                                 ?>
                               </div>
                             </div>
-                            <button type="button" data-label-collapsed="Show more pictures" data-label-expanded="Show less pictures" class="w-100 d-md-none collapsed btn btn-outline-secondary btn-lg">
+                            <button type="button" data-label-collapsed="Mostrar más fotos" data-label-expanded="Mostrar menos fotos" class="w-100 d-md-none collapsed btn btn-outline-secondary btn-lg">
                               <i class="collapse-toggle-icon ci-chevron-down fs-lg ms-2 me-n2"></i>
                             </button>
                           </div>
@@ -187,10 +187,10 @@ get_header('shop'); ?>
               </div>
               <div class="d-flex align-items-center justify-content-between bg-body-tertiary rounded p-3">
                 <div class="me-3">
-                  <h6 class="fs-sm mb-1">Have a question?</h6>
-                  <p class="fs-sm mb-0">Contact us if you have questions</p>
+                  <h6 class="fs-sm mb-1">¿Tienes una pregunta?</h6>
+                  <p class="fs-sm mb-0">Contáctanos si tienes preguntas</p>
                 </div>
-                <a class="btn btn-sm btn-outline-dark rounded-pill" href="https://cartzilla-react.createx.studio/contact/v2">Contact us</a>
+                <a class="btn btn-sm btn-outline-dark rounded-pill" href="https://cartzilla-react.createx.studio/contact/v2">Contáctanos</a>
               </div>
             </div>
             <div class="toast-container bottom-0 end-0 position-fixed z-fixed p-3"></div>
@@ -257,7 +257,7 @@ get_header('shop'); ?>
           </div>
         </section>
         <section class="pb-5 mb-2 mb-sm-3 mb-lg-4 mb-xl-5">
-          <h2 class="h3 pb-2 pb-sm-3">Popular products</h2>
+          <h2 class="h3 pb-2 pb-sm-3">Productos populares</h2>
           <div class="g-4 pb-xxl-3 row row-cols-lg-4 row-cols-md-3 row-cols-2">
             <?php
             if (class_exists('WooCommerce')) {
@@ -296,11 +296,11 @@ get_header('shop'); ?>
                       </a>
                     </h6>
                     <p class="mb-3 text-secondary-emphasis fs-sm">
-                      Free shipping
+                      Envío gratis
                     </p>
                     <div class="d-flex gap-2">
                       <a href="<?php echo esc_url(get_permalink()); ?>" class="btn btn-dark rounded-pill w-100">
-                        View Details
+                        Ver detalles
                       </a>
                     </div>
                   </div>

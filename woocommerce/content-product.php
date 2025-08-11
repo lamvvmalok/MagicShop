@@ -27,9 +27,9 @@ if (!$product || !$product->is_visible()) {
 <li <?php wc_product_class('col-lg-3 col-md-4 col-6 mb-4', $product); ?>>
     <div class="card h-100 product-card">
         <div class="card-img-top position-relative">
-            <?php if ($product->is_on_sale()) : ?>
-                <span class="badge bg-danger position-absolute top-0 start-0 m-2">Sale</span>
-            <?php endif; ?>
+                            <?php if ($product->is_on_sale()) : ?>
+                    <span class="badge bg-danger position-absolute top-0 start-0 m-2">Oferta</span>
+                <?php endif; ?>
             
                                                     <a href="<?php echo esc_url(get_permalink()); ?>" class="text-decoration-none">
                                             <?php if (has_post_thumbnail()) : ?>

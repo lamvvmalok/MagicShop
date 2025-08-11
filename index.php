@@ -15,7 +15,7 @@ get_header(); ?>
             <div class="col-lg-6">
                 <h1 class="display-4 fw-bold mb-4">Everything You Need for a Modern Interior</h1>
                 <p class="lead mb-4">Discover our collection of premium furniture and home decor items that will transform your living space.</p>
-                <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_shop_page_id'))); ?>" class="btn btn-primary btn-lg">Shop Now</a>
+                <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_shop_page_id'))); ?>" class="btn btn-primary btn-lg">Comprar Ahora</a>
             </div>
             <div class="col-lg-6">
                 <!-- Product Slider -->
@@ -163,11 +163,11 @@ get_header(); ?>
                                             <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="<?php echo esc_attr(get_the_title()); ?>" class="card-img-top">
                                         <?php endif; ?>
                                     </a>
-                                    <?php if ($product && $product->is_on_sale()) : ?>
-                                        <span class="badge bg-danger position-absolute top-0 start-0 m-2">Sale</span>
-                                    <?php endif; ?>
+                                                                <?php if ($product && $product->is_on_sale()) : ?>
+                                <span class="badge bg-danger position-absolute top-0 start-0 m-2">Oferta</span>
+                            <?php endif; ?>
                                     <div class="position-absolute top-0 end-0 m-2">
-                                        <button class="btn btn-light btn-sm rounded-circle" data-bs-toggle="tooltip" title="Add to Wishlist">
+                                        <button class="btn btn-light btn-sm rounded-circle" data-bs-toggle="tooltip" title="Agregar a Lista de Deseos">
                                             <i class="bi bi-heart"></i>
                                         </button>
                                     </div>
@@ -202,18 +202,18 @@ get_header(); ?>
                         <div class="position-relative">
                             <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Navy blue low sofa">
                             <div class="position-absolute top-0 end-0 m-2">
-                                <button class="btn btn-light btn-sm rounded-circle" data-bs-toggle="tooltip" title="Add to Wishlist">
+                                <button class="btn btn-light btn-sm rounded-circle" data-bs-toggle="tooltip" title="Agregar a Lista de Deseos">
                                     <i class="bi bi-heart"></i>
                                 </button>
                             </div>
                         </div>
                         <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Navy blue low sofa for relaxation</h5>
-                            <p class="card-text text-muted">Perfect for your living room</p>
+                            <h5 class="card-title">Sofá bajo azul marino para relajación</h5>
+                            <p class="card-text text-muted">Perfecto para tu sala de estar</p>
                             <div class="mt-auto">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <span class="h5 text-primary mb-0">$1,250.00</span>
-                                    <a href="#" class="btn btn-outline-primary btn-sm">Shop now</a>
+                                    <a href="#" class="btn btn-outline-primary btn-sm">Comprar ahora</a>
                                 </div>
                             </div>
                         </div>
@@ -229,7 +229,7 @@ get_header(); ?>
 <!-- Features Section -->
 <section class="py-5">
     <div class="container">
-        <h2 class="text-center mb-5">Why Choose Our Products</h2>
+        <h2 class="text-center mb-5">¿Por qué elegir nuestros productos?</h2>
         
         <div class="row">
             <div class="col-lg-4 mb-4">
@@ -237,8 +237,8 @@ get_header(); ?>
                     <div class="feature-icon mb-3">
                         <i class="bi bi-leaf-fill text-success" style="font-size: 3rem;"></i>
                     </div>
-                    <h4>Eco-friendly</h4>
-                    <p class="text-muted">Decorate your space with eco-friendly furniture with low VOCs, environmentally friendly materials and safe coatings.</p>
+                    <h4>Ecológico</h4>
+                    <p class="text-muted">Decora tu espacio con muebles ecológicos con bajos COV, materiales respetuosos con el medio ambiente y recubrimientos seguros.</p>
                 </div>
             </div>
             
@@ -247,8 +247,8 @@ get_header(); ?>
                     <div class="feature-icon mb-3">
                         <i class="bi bi-award-fill text-warning" style="font-size: 3rem;"></i>
                     </div>
-                    <h4>Unbeatable quality</h4>
-                    <p class="text-muted">We choose raw materials from the best manufacturers, so our furniture and decor are of the highest quality at the best prices.</p>
+                    <h4>Calidad insuperable</h4>
+                    <p class="text-muted">Elegimos materias primas de los mejores fabricantes, por lo que nuestros muebles y decoración son de la más alta calidad a los mejores precios.</p>
                 </div>
             </div>
             
@@ -257,8 +257,8 @@ get_header(); ?>
                     <div class="feature-icon mb-3">
                         <i class="bi bi-truck-fill text-primary" style="font-size: 3rem;"></i>
                     </div>
-                    <h4>Delivery to your door</h4>
-                    <p class="text-muted">We will deliver to your door anywhere in the world. If you're not 100% satisfied, let us know within 30 days and we'll solve the problem.</p>
+                    <h4>Entrega a tu puerta</h4>
+                    <p class="text-muted">Entregamos a tu puerta en cualquier parte del mundo. Si no estás 100% satisfecho, avísanos dentro de 30 días y resolveremos el problema.</p>
                 </div>
             </div>
         </div>
@@ -270,15 +270,15 @@ get_header(); ?>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6 text-center">
-                <h3 class="mb-3">Stay in touch with us</h3>
-                <p class="mb-4">Receive the latest updates about our products & promotions</p>
+                <h3 class="mb-3">Mantente en contacto con nosotros</h3>
+                <p class="mb-4">Recibe las últimas actualizaciones sobre nuestros productos y promociones</p>
                 
                 <form class="row g-3">
                     <div class="col-md-8">
-                        <input type="email" class="form-control form-control-lg" placeholder="Please enter your email address!" required>
+                        <input type="email" class="form-control form-control-lg" placeholder="¡Por favor ingresa tu dirección de correo electrónico!" required>
                     </div>
                     <div class="col-md-4">
-                        <button type="submit" class="btn btn-light btn-lg w-100">Subscribe</button>
+                        <button type="submit" class="btn btn-light btn-lg w-100">Suscribirse</button>
                     </div>
                 </form>
             </div>

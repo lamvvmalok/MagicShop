@@ -502,7 +502,7 @@ get_header('shop');
                   <h3 class="text-secondary-emphasis fs-base fw-normal mb-2"><?php echo esc_html($product['title']); ?></h3>
                   <p class="h4 mb-4"><?php echo $product['price']; ?></p>
                   <a class="btn btn-lg btn-dark rounded-pill" href="<?php echo esc_url($product['url']); ?>">
-                    Shop now <i class="ci-chevron-right fs-lg ms-2 me-n2"></i>
+                    Comprar ahora <i class="ci-chevron-right fs-lg ms-2 me-n2"></i>
                   </a>
                 </div>
                 <?php endforeach; ?>
@@ -806,10 +806,10 @@ get_header('shop');
       
       <section class="pb-5 mt-md-n2 mb-2 mb-sm-3 mb-md-4 mb-xl-5 container">
         <div class="d-flex align-items-center justify-content-between border-bottom pb-3 pb-md-4">
-          <h2 class="h3 mb-0">Popular products</h2>
+          <h2 class="h3 mb-0">Productos populares</h2>
           <div class="ms-3 nav">
             <a data-rr-ui-event-key="/shop/furniture" class="animate-underline px-0 py-2 nav-link" href="<?php echo esc_url(home_url('/shop/')); ?>">
-              <span class="animate-target">View all</span>
+              <span class="animate-target">Ver todo</span>
               <i class="ci-chevron-right fs-base ms-1"></i>
             </a>
           </div>
@@ -834,11 +834,11 @@ get_header('shop');
                   </a>
                 </h6>
                 <p class="mb-3 text-secondary-emphasis fs-sm">
-                  Free shipping
+                  Envío gratis
                 </p>
                 <div class="d-flex gap-2">
                   <a href="<?php echo esc_url($product['url']); ?>" class="btn btn-dark rounded-pill w-100">
-                    View Details
+                    Ver detalles
                   </a>
                 </div>
               </div>

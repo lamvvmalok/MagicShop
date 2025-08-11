@@ -4,29 +4,29 @@
         <div class="pb-5 row">
           <div class="order-md-2 col-xl-8 col-md">
             <div class="text-center px-sm-4 mx-auto" style="max-width:568px">
-              <h3 class="pb-1 mb-2">Stay in touch with us</h3>
-              <p class="fs-sm text-body pb-2 pb-sm-3">Receive the latest updates about our products &amp; promotions</p>
+              <h3 class="pb-1 mb-2">Mantente en contacto con nosotros</h3>
+              <p class="fs-sm text-body pb-2 pb-sm-3">Recibe las últimas actualizaciones sobre nuestros productos y promociones</p>
               <form noValidate="" class="position-relative">
-                <input placeholder="Your email" aria-label="Your email address" required="" type="email" class="rounded-pill text-start form-control form-control-lg" />
-                <div class="bg-transparent p-0 invalid-tooltip">Please enter your email address!</div>
+                <input placeholder="Tu correo electrónico" aria-label="Tu dirección de correo electrónico" required="" type="email" class="rounded-pill text-start form-control form-control-lg" />
+                <div class="bg-transparent p-0 invalid-tooltip">¡Por favor ingresa tu dirección de correo electrónico!</div>
                 <button type="submit" aria-label="Submit your email address" data-bs-theme="light" class="btn-icon fs-xl rounded-circle position-absolute top-0 end-0 mt-1 me-1 btn btn-dark">
                   <i class="ci-arrow-up-right"></i>
                 </button>
               </form>
               <div class="d-flex justify-content-center gap-2 pt-4 pt-md-5 mt-1 mt-md-0">
-                <a role="button" tabindex="0" href="furniture.html#" aria-label="Follow us on YouTube" class="btn-icon fs-base border-0 btn btn-outline-secondary">
+                <a role="button" tabindex="0" href="furniture.html#" aria-label="Síguenos en YouTube" class="btn-icon fs-base border-0 btn btn-outline-secondary">
                   <i class="ci-youtube"></i>
                 </a>
-                <a role="button" tabindex="0" href="furniture.html#" aria-label="Follow us on Facebook" class="btn-icon fs-base border-0 btn btn-outline-secondary">
+                <a role="button" tabindex="0" href="furniture.html#" aria-label="Síguenos en Facebook" class="btn-icon fs-base border-0 btn btn-outline-secondary">
                   <i class="ci-facebook"></i>
                 </a>
-                <a role="button" tabindex="0" href="furniture.html#" aria-label="Follow us on Instagram" class="btn-icon fs-base border-0 btn btn-outline-secondary">
+                <a role="button" tabindex="0" href="furniture.html#" aria-label="Síguenos en Instagram" class="btn-icon fs-base border-0 btn btn-outline-secondary">
                   <i class="ci-instagram"></i>
                 </a>
-                <a role="button" tabindex="0" href="furniture.html#" aria-label="Follow us on Telegram" class="btn-icon fs-base border-0 btn btn-outline-secondary">
+                <a role="button" tabindex="0" href="furniture.html#" aria-label="Síguenos en Telegram" class="btn-icon fs-base border-0 btn btn-outline-secondary">
                   <i class="ci-telegram"></i>
                 </a>
-                <a role="button" tabindex="0" href="furniture.html#" aria-label="Follow us on Pinterest" class="btn-icon fs-base border-0 btn btn-outline-secondary">
+                <a role="button" tabindex="0" href="furniture.html#" aria-label="Síguenos en Pinterest" class="btn-icon fs-base border-0 btn btn-outline-secondary">
                   <i class="ci-pinterest"></i>
                 </a>
               </div>
@@ -35,49 +35,49 @@
           <div class="text-center order-md-1 pt-4 pt-md-0 col-xl-2 col-md-auto">
             <ul class="d-inline-flex flex-md-column justify-content-center align-items-center gap-md-2 nav">
               <li class="animate-underline my-1 mx-2 m-md-0 nav-item">
-                <a data-rr-ui-event-key="#bedroom" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#bedroom">Bedroom</a>
+                <a data-rr-ui-event-key="#bedroom" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#bedroom">Dormitorio</a>
               </li>
               <li class="animate-underline my-1 mx-2 m-md-0 nav-item">
-                <a data-rr-ui-event-key="#living-room" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#living-room">Living room</a>
+                <a data-rr-ui-event-key="#living-room" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#living-room">Sala de estar</a>
               </li>
               <li class="animate-underline my-1 mx-2 m-md-0 nav-item">
-                <a data-rr-ui-event-key="#bathroom" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#bathroom">Bathroom</a>
+                <a data-rr-ui-event-key="#bathroom" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#bathroom">Baño</a>
               </li>
               <li class="animate-underline my-1 mx-2 m-md-0 nav-item">
-                <a data-rr-ui-event-key="#decoration" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#decoration">Decoration</a>
+                <a data-rr-ui-event-key="#decoration" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#decoration">Decoración</a>
               </li>
               <li class="animate-underline my-1 mx-2 m-md-0 nav-item">
-                <a data-rr-ui-event-key="#kitchen" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#kitchen">Kitchen</a>
+                <a data-rr-ui-event-key="#kitchen" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#kitchen">Cocina</a>
               </li>
               <li class="animate-underline my-1 mx-2 m-md-0 nav-item">
-                <a data-rr-ui-event-key="#sale" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#sale">Sale</a>
+                <a data-rr-ui-event-key="#sale" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#sale">Ofertas</a>
               </li>
             </ul>
           </div>
           <div class="text-center order-md-3 pt-3 pt-md-0 col-xl-2 col-md-auto">
             <ul class="d-inline-flex flex-md-column justify-content-center align-items-center gap-md-2 nav">
               <li class="animate-underline my-1 mx-2 m-md-0 nav-item">
-                <a data-rr-ui-event-key="#shipping" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#shipping">Shipping options</a>
+                <a data-rr-ui-event-key="#shipping" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#shipping">Opciones de envío</a>
               </li>
               <li class="animate-underline my-1 mx-2 m-md-0 nav-item">
-                <a data-rr-ui-event-key="#tracking" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#tracking">Tracking a package</a>
+                <a data-rr-ui-event-key="#tracking" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#tracking">Rastrear paquete</a>
               </li>
               <li class="animate-underline my-1 mx-2 m-md-0 nav-item">
-                <a data-rr-ui-event-key="#help" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#help">Help center</a>
+                <a data-rr-ui-event-key="#help" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#help">Centro de ayuda</a>
               </li>
               <li class="animate-underline my-1 mx-2 m-md-0 nav-item">
-                <a data-rr-ui-event-key="#contact" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#contact">Contact us</a>
+                <a data-rr-ui-event-key="#contact" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#contact">Contáctanos</a>
               </li>
               <li class="animate-underline my-1 mx-2 m-md-0 nav-item">
-                <a data-rr-ui-event-key="#returns" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#returns">Product returns</a>
+                <a data-rr-ui-event-key="#returns" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#returns">Devoluciones</a>
               </li>
               <li class="animate-underline my-1 mx-2 m-md-0 nav-item">
-                <a data-rr-ui-event-key="#locations" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#locations">Locations</a>
+                <a data-rr-ui-event-key="#locations" class="d-inline-flex fw-normal p-0 animate-target nav-link" href="furniture.html#locations">Ubicaciones</a>
               </li>
             </ul>
           </div>
         </div>
-        <p class="fs-xs text-body text-center pt-lg-4 mt-n2 mt-md-0 mb-0">© All rights reserved. Made by
+        <p class="fs-xs text-body text-center pt-lg-4 mt-n2 mt-md-0 mb-0">© Todos los derechos reservados. Hecho por
           <!-- -->
           <span class="animate-underline">
             <a class="animate-target text-white text-decoration-none" href="https://createx.studio/" target="_blank" rel="noreferrer">Createx Studio</a>

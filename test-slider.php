@@ -21,11 +21,11 @@ get_header(); ?>
                                 <div class="product-image-container">
                                     <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Navy Blue Sofa" class="product-slide-image">
                                     <div class="product-info">
-                                        <h4 class="product-title">Navy Blue Low Sofa</h4>
-                                        <p class="product-description">Perfect for relaxation and modern living</p>
+                                        <h4 class="product-title">Sofá Bajo Azul Marino</h4>
+                                        <p class="product-description">Perfecto para la relajación y la vida moderna</p>
                                         <div class="product-price">$1,250.00</div>
                                         <button class="btn btn-dark btn-lg">
-                                            Shop Now
+                                            Comprar Ahora
                                             <i class="bi bi-arrow-right ms-2"></i>
                                         </button>
                                     </div>
@@ -39,11 +39,11 @@ get_header(); ?>
                                 <div class="product-image-container">
                                     <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Modern Armchair" class="product-slide-image">
                                     <div class="product-info">
-                                        <h4 class="product-title">Modern Accent Armchair</h4>
-                                        <p class="product-description">Elegant design with premium comfort</p>
+                                        <h4 class="product-title">Sillón de Acento Moderno</h4>
+                                        <p class="product-description">Diseño elegante con comodidad premium</p>
                                         <div class="product-price">$899.00</div>
                                         <button class="btn btn-dark btn-lg">
-                                            Shop Now
+                                            Comprar Ahora
                                             <i class="bi bi-arrow-right ms-2"></i>
                                         </button>
                                     </div>
@@ -57,11 +57,11 @@ get_header(); ?>
                                 <div class="product-image-container">
                                     <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Dining Table" class="product-slide-image">
                                     <div class="product-info">
-                                        <h4 class="product-title">Contemporary Dining Table</h4>
-                                        <p class="product-description">Perfect for family gatherings</p>
+                                        <h4 class="product-title">Mesa de Comedor Contemporánea</h4>
+                                        <p class="product-description">Perfecta para reuniones familiares</p>
                                         <div class="product-price">$1,599.00</div>
                                         <button class="btn btn-dark btn-lg">
-                                            Shop Now
+                                            Comprar Ahora
                                             <i class="bi bi-arrow-right ms-2"></i>
                                         </button>
                                     </div>
@@ -73,18 +73,18 @@ get_header(); ?>
                     <!-- Carousel Controls -->
                     <button class="carousel-control-prev" type="button" data-bs-target="#heroProductSlider" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                        <span class="visually-hidden">Anterior</span>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#heroProductSlider" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
+                        <span class="visually-hidden">Siguiente</span>
                     </button>
                     
                     <!-- Carousel Indicators -->
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#heroProductSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#heroProductSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#heroProductSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#heroProductSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Diapositiva 1"></button>
+                        <button type="button" data-bs-target="#heroProductSlider" data-bs-slide-to="1" aria-label="Diapositiva 2"></button>
+                        <button type="button" data-bs-target="#heroProductSlider" data-bs-slide-to="2" aria-label="Diapositiva 3"></button>
                     </div>
                 </div>
             </div>

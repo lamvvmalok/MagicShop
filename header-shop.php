@@ -22,8 +22,8 @@
     
 
     <meta name="next-size-adjust" content="" />
-    <title>Cartzilla | Furniture Store</title>
-    <meta name="description" content="Cartzilla - Multipurpose E-Commerce React / Next.js Bootstrap Template" />
+    <title>Power | Tienda de Muebles</title>
+    <meta name="description" content="Power - Tienda de muebles y decoración para el hogar" />
     <meta name="author" content="Createx Studio" />
     <link rel="manifest" href="../manifest.webmanifest" />
     <meta name="keywords" content="online shop,e-commerce,online store,market,multipurpose,product landing,cart,checkout,react,nextjs,bootstrap,ui kit,light and dark mode,gallery,slider,mobile,pwa" />
@@ -41,11 +41,11 @@
 <!-- Top Bar -->
 <div class="position-relative d-flex justify-content-between z-1 py-3 container">
   <div class="animate-underline nav">
-    <span class="text-secondary-emphasis fs-xs me-1">Contact us <span class="d-none d-sm-inline">24/7</span>
+    <span class="text-secondary-emphasis fs-xs me-1">Contáctanos <span class="d-none d-sm-inline">24/7</span>
     </span>
     <a href="tel:+15053753082" data-rr-ui-event-key="tel:+15053753082" class="animate-target fs-xs fw-semibold p-0 nav-link">+1 50 537 53 082</a>
   </div>
-  <a class="text-secondary-emphasis fs-xs text-decoration-none d-none d-md-inline" href="furniture.html#">🔥 The Biggest Sale Ever 50% Off</a>
+  <a class="text-secondary-emphasis fs-xs text-decoration-none d-none d-md-inline" href="furniture.html#">🔥 La Mayor Venta de la Historia 50% de Descuento</a>
   <ul class="gap-4 nav">
   </ul>
 </div>
@@ -56,7 +56,7 @@
     <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark rounded-pill z-0 d-none d-block-dark"></div>
     
     <!-- Botón del menú móvil -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegación">
       <span class="navbar-toggler-icon"></span>
     </button>
     
@@ -67,7 +67,7 @@
     <div class="offcanvas offcanvas-start" id="navbarNav" tabindex="-1" aria-labelledby="navbarNavLabel" aria-hidden="true">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="navbarNavLabel">Menú</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
       </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav">
@@ -102,16 +102,16 @@
               // Fallback si no hay menú configurado
               ?>
               <li class="nav-item me-lg-n1 me-xl-0">
-                <a class="with-focus fs-sm nav-link<?php echo is_front_page() ? ' active' : ''; ?>" href="<?php echo esc_url(home_url('/')); ?>">Home</a>
+                <a class="with-focus fs-sm nav-link<?php echo is_front_page() ? ' active' : ''; ?>" href="<?php echo esc_url(home_url('/')); ?>">Inicio</a>
               </li>
               <li class="nav-item me-lg-n1 me-xl-0">
-                <a class="with-focus fs-sm nav-link<?php echo (is_shop() || is_product_category() || is_product_tag() || is_product()) ? ' active' : ''; ?>" href="<?php echo esc_url(home_url('/shop/')); ?>">Shop</a>
+                <a class="with-focus fs-sm nav-link<?php echo (is_shop() || is_product_category() || is_product_tag() || is_product()) ? ' active' : ''; ?>" href="<?php echo esc_url(home_url('/shop/')); ?>">Tienda</a>
               </li>
               <li class="nav-item me-lg-n1 me-xl-0">
-                <a class="with-focus fs-sm nav-link" href="<?php echo esc_url(home_url('/my-account/')); ?>">Account</a>
+                <a class="with-focus fs-sm nav-link" href="<?php echo esc_url(home_url('/my-account/')); ?>">Cuenta</a>
               </li>
               <li class="nav-item me-lg-n1 me-xl-0">
-                <a class="with-focus fs-sm nav-link" href="<?php echo esc_url(home_url('/cart/')); ?>">Cart</a>
+                <a class="with-focus fs-sm nav-link" href="<?php echo esc_url(home_url('/cart/')); ?>">Carrito</a>
               </li>
               <?php
           }

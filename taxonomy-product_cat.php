@@ -39,12 +39,12 @@ $total_pages = $products_query->max_num_pages;
           <div class="col-lg-3">
             <div class="offcanvas-lg offcanvas-start" aria-labelledby="filtersSidebar">
               <div class="py-3 offcanvas-header">
-                <h5 class="offcanvas-title" id="filtersSidebar">Filter and sort</h5>
+                <h5 class="offcanvas-title" id="filtersSidebar">Filtrar y ordenar</h5>
                 <button type="button" class="btn-close" aria-label="Close"></button>
               </div>
               <div class="flex-column pt-2 py-lg-0 offcanvas-body">
                 <div class="w-100 border rounded p-3 p-xl-4 mb-3 mb-xl-4">
-                  <h4 class="h6 mb-2">Categories</h4>
+                  <h4 class="h6 mb-2">Categorías</h4>
                   <ul class="list-unstyled d-block m-0">
                     <?php
                     // Obtener todas las categorías de productos de WooCommerce
@@ -130,7 +130,7 @@ $total_pages = $products_query->max_num_pages;
 
             
             <?php if ($total_pages > 1) : ?>
-            <nav class="border-top mt-4 pt-3" aria-label="Shop pagination">
+            <nav class="border-top mt-4 pt-3" aria-label="Paginación de la tienda">
               <div class="d-flex justify-content-center">
                 <?php echo magicshop_custom_pagination(); ?>
               </div>

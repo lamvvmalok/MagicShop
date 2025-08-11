@@ -12,10 +12,10 @@ get_header('shop');
           <li class="breadcrumb-item">
             <a href="<?php echo esc_url(home_url('/')); ?>">Home</a>
           </li>
-          <li class="breadcrumb-item active" aria-current="page">Categories</li>
+          <li class="breadcrumb-item active" aria-current="page">Categorías</li>
         </ol>
       </div>
-      <h1 class="h3 container mb-sm-4 container">Shop categories</h1>
+      <h1 class="h3 container mb-sm-4 container">Categorías de la tienda</h1>
       <section class="mb-4 container">
         <div data-simplebar="init" data-simplebar-auto-hide="false">
           <div class="simplebar-wrapper">
