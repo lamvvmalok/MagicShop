@@ -1,0 +1,191 @@
+/* Custom styles for blueimp Gallery integration */
+.blueimp-gallery {
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+.blueimp-gallery .slides {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.blueimp-gallery .title {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.blueimp-gallery .prev,
+.blueimp-gallery .next {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+    min-width: 60px;
+    text-align: center;
+    line-height: 1;
+}
+
+.blueimp-gallery .prev {
+    left: 0;
+}
+
+.blueimp-gallery .next {
+    right: 0;
+}
+
+.blueimp-gallery .prev:hover,
+.blueimp-gallery .next:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+.blueimp-gallery .close {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 15px 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    z-index: 1001;
+    line-height: 1;
+    min-width: 60px;
+    text-align: center;
+}
+
+.blueimp-gallery .close:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+.blueimp-gallery .play-pause {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    z-index: 1001;
+    min-width: 60px;
+    text-align: center;
+}
+
+.blueimp-gallery .play-pause:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+/* Limpieza: solo estilos mínimos para miniaturas horizontales */
+/* Forzar indicadores en una sola fila horizontal */
+.blueimp-gallery .indicator {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute !important;
+    bottom: 20px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    z-index: 1000;
+    list-style: none;
+    margin: 0;
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 5px;
+    min-height: 44px;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.blueimp-gallery .indicator li {
+    display: inline-block !important;
+    margin: 0 2px !important;
+    padding: 0 !important;
+    list-style: none !important;
+}
+
+.blueimp-gallery .indicator img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 0 2px #000;
+    margin: 2px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: border-color 0.2s;
+    display: block !important;
+}
+
+.blueimp-gallery .indicator li.active img,
+.blueimp-gallery .indicator img.active {
+    border-color: #fff;
+}
+
+@media (max-width: 768px) {
+    .blueimp-gallery .indicator {
+        bottom: 10px !important;
+        padding: 8px;
+        min-height: 32px;
+        max-width: 95%;
+    }
+    .blueimp-gallery .indicator img {
+        width: 32px;
+        height: 32px;
+    }
+} 
+
+/* Estilos para botones de WhatsApp */
+.btn[style*="#25D366"] {
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.btn[style*="#25D366"]:hover {
+    background-color: #128C7E !important;
+    border-color: #128C7E !important;
+    color: white !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+}
+
+.btn[style*="#25D366"]:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(37, 211, 102, 0.3);
+}
+
+.btn[style*="#25D366"] svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+} 
